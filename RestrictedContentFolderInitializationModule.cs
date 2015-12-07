@@ -2,13 +2,13 @@ using System.Collections.Generic;
 using System.Linq;
 using EPiServer.Core;
 using EPiServer.DataAccess;
-using EPiServer.Forms.Models.Folders;
+using Toders.RestrictedContentFolders.Models.Folders;
 using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using EPiServer.Security;
 using EPiServer.ServiceLocation;
 
-namespace EPiServer.Forms.Business
+namespace Toders.RestrictedContentFolders.Business
 {
     [InitializableModule]
     [ModuleDependency(typeof(Web.InitializationModule))]
