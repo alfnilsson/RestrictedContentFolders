@@ -2,10 +2,10 @@ using System;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
-using EPiServer.Forms.Models.Blocks;
-using EPiServer.Forms.Models.Media;
+using Toders.RestrictedContentFolders.Models.Blocks;
+using Toders.RestrictedContentFolders.Models.Media;
 
-namespace EPiServer.Forms.Models.Folders
+namespace Toders.RestrictedContentFolders.Models.Folders
 {
     [ContentType(GUID = "964063f0-613b-4ce5-85a0-2d11fee0b905")]
     [AvailableContentTypes(Availability.Specific, Include = new[] { typeof(TeaserBlock) })]
